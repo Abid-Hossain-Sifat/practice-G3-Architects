@@ -164,6 +164,20 @@ main >section {
     font-weight: 600px;
     margin-top: 10px;
 }
+/* sponsor  */
+.sponsore-inf {
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+.spon-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.spon-container img {
+    filter: grayscale(100%);
+}
+
 
 
 
@@ -178,7 +192,9 @@ main >section {
     .banner-contain {
         margin-top: 50px;
     }
-    .team-img-container{
+    .team-img-container,
+    .fact-container,
+    .spon-container{
         grid-template-columns: repeat(1, 1fr);
     }
     .feature-tittle {
@@ -200,6 +216,15 @@ main >section {
     font-size: 1rem;
     line-height: 26px;
     margin-bottom: 20px;}
+    .fact-container {
+        justify-items: center;
+    }
+    .fact {
+        margin-top: 20px;
+    }
+    .sp-img {
+        margin: 20px auto;
+    }
     
 }
 
@@ -213,5 +238,12 @@ main >section {
     .fetures {
         margin: 50px auto;
     }
-    
+    .fact-container,
+    .spon-container{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .fact {
+        margin: 20px auto;
+    }
 }
