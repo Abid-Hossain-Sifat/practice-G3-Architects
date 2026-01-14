@@ -1,0 +1,145 @@
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* font end  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Shared style  */
+.display-flex {
+    display: flex;
+}
+
+.pri-btn{
+    padding: 20px 25px;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+}
+main >section {
+    margin-top: 130px;
+}
+
+
+/* color style  */
+.orange {
+    color: #FF900E;
+}
+.txt-col-dark1{
+    color: #131313;
+}
+
+.txt-col-dark2{
+    color: #424242;
+}
+
+.txt-col-dark3 {
+    color: #727272;
+}
+.header-bg-col {
+    background-color: #ff8f0e20;
+}
+/* color style end  */
+
+
+/* navbar style  */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+.brand {
+    font-size: 2.8rem;
+    font-weight: 700px;
+}
+.nav-item {
+    list-style: none;
+    margin-right: 50px;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 26px;
+    
+}
+.navbar, .banner, main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Banner  */
+.banner-contain {
+    max-width: 860px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.bann-title {
+    font-weight: 700px;
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+.bann-desc {
+    margin-bottom: 30px;
+}
+.bann-img {
+    width: 100%;
+}
+
+
+/* main section  */
+.team-feature{
+    align-items: center;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.fetures{
+    margin-left: 70px;
+    max-width: 530px;
+}
+.feature-tittle {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+}
+.ft1 {
+    font-weight: 500px;
+}
+.ft2, .ft3 {
+    font-weight: 700px;
+}
+.feature-dis {
+    font-size: 1rem;
+    line-height: 26px;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+/* responsive  */
+@media screen and (max-width:576px) {
+    .navbar, .nav-links {
+        flex-direction: column;
+    }
+    
+    
+}
